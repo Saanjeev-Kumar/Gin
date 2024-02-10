@@ -4,5 +4,4 @@ package models
 
 type User struct {
 	Name     string             `json:"name,omitempty" `
-	Email    string             `json:"location,omitempty" `
 }

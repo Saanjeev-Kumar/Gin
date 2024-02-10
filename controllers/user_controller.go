@@ -44,7 +44,6 @@ func CreateUser() gin.HandlerFunc {
 
 		newUser := models.User{
 			Name:     user.Name,
-			Email: 	user.Email,
 		}
 		fmt.Println(newUser)
 
